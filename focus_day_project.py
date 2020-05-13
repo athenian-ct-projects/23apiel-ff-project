@@ -73,13 +73,70 @@ def Geography(score):
         score = score + 0
         print("Your score is", score, )
     if s == 400:
-      j = input("Name one of the other schools that participated in the triwizard tournament?: "
-      if j == "Beauxbatons Academy of Magic" or "Durmstrang Institute":
+      e = input("What was the name of the tree Harry and Ron crashed their car into?: ")
+      if e == "The Whomping Willow":
         score = score + 400
+        print("Your score is", score, ) 
+      else:
+        score = score + 0
+        print("Your score is", score, )
+    if s == 500:
+      h = input("What is the Dursely's address? ")
+      if h == "4 Privet Drive":
+        score = score + 500
         print("Your score is", score, )
       else:
         score = score + 0
         print("Your score is", score, ) 
+def Random_Facts(score):
+  if x == "Random Facts":
+    q = int(input("How many points?: "))
+    if q == 100:
+      w = input("What does Dumbledore mean in Old English?: ")
+      if w == "Bumblebee":
+          score = score + 100
+          print("Your score is", score, )
+      else: 
+          score = score + 0
+          print("Your score is", score, )
+    if q == 200:
+      o = input("What is the name of HGagrid's dog?: ")
+      if o == "Fang":
+        score = score + 200
+        print("Your score is", score, )
+      else:
+        score = score + 0
+        print("Your score is", score, ) 
+    if q == 300:
+      g = input("What is Tom Riddle's middle name?: ")
+      if g == "Marvolo":
+        print("Your score is", score, ) 
+      else:
+        score = score + 0
+        print("Your score is", score, )
+    if q == 400:
+      t = input("What position did Harry Potter play on the Quidditch team?: ")
+      if t == "Seeker":
+        score = score + 400
+        print("Your score is", score, ) 
+      else:
+        score = score + 0
+        print("Your score is", score, )
+    if q == 500:
+      l = input("What is the name of people who can talk to snakes?: ")
+      if l == "Parseltongue":
+        score = score + 500
+        print("Your score is", score, )
+      else:
+        score = score + 0
+        print("Your score is", score, )
+
+
+
+
+       
+
+
          
     
 
@@ -90,5 +147,9 @@ def Geography(score):
 score = 0
 Hogwarts(score)      
 Geography(score)
+Random_Facts(score)
     
 #https://screenrant.com/harry-potter-interesting-wizarding-schools-facts/
+#https://www.cambridge-news.co.uk/news/uk-world-news/40-harry-potter-quiz-questions-18163224
+#https://www.insider.com/harry-potter-little-known-facts-2019-1#to-prevent-early-leaks-of-harry-potter-and-the-deathly-hallows-the-series-publisher-bloomsbury-gave-the-seventh-and-final-book-some-quirky-codenames-17
+    

@@ -1,7 +1,6 @@
 # Welcome to your Focus Day Project. Replace this comment with something that introduces the user to your project. Be sure to mention the Focus Day and your initials and graduation year. (ie This game is for Pool Volume Day and is written by ML '23.)
 # Also, be sure to use comments throughout your program. Use good programming practices, including organization, documentation and citation. Yes, you need to cite your sources! (You can do so using comments at the bottom of your code.)
 
-x = input("Select a Category?: ")
 def Hogwarts(score):
   if x == "Hogwarts":
     y = int(input("How many points?: "))
@@ -52,7 +51,7 @@ def Geography(score):
         q = input("Which country does Harry Potter take place?: ")
         if q == "England":
           score = score +100
-          print("Your score is", score, )
+          print("Your score is", score,)
         else: 
           score = score + 0
           print("Your score is", score, )
@@ -96,41 +95,72 @@ def Random_Facts(score):
       if w == "Bumblebee":
           score = score + 100
           print("Your score is", score, )
+          print("Team 2 goes next? ")
       else: 
           score = score + 0
           print("Your score is", score, )
+          print("Team 2 goes next? ")
     if q == 200:
-      o = input("What is the name of HGagrid's dog?: ")
+      o = input("What is the name of Hagrid's dog?: ")
       if o == "Fang":
         score = score + 200
         print("Your score is", score, )
+        print("Team 2 goes next? ")
       else:
         score = score + 0
         print("Your score is", score, ) 
+        print("Team 2 goes next? ")
     if q == 300:
       g = input("What is Tom Riddle's middle name?: ")
       if g == "Marvolo":
         print("Your score is", score, ) 
+        print("Team 2 goes next? ")
       else:
         score = score + 0
         print("Your score is", score, )
+        print("Team 2 goes next? ")
     if q == 400:
       t = input("What position did Harry Potter play on the Quidditch team?: ")
       if t == "Seeker":
         score = score + 400
-        print("Your score is", score, ) 
+        print("Your score is", score, )
+        print("Team 2 goes next? ")
       else:
         score = score + 0
         print("Your score is", score, )
+        print("Team 2 goes next? ")
     if q == 500:
       l = input("What is the name of people who can talk to snakes?: ")
       if l == "Parseltongue":
         score = score + 500
         print("Your score is", score, )
+        print("Team 2 goes next? ")
       else:
         score = score + 0
         print("Your score is", score, )
+        print("Team 2 goes next? ")
 
+
+       
+
+
+         
+print("Team 1 goes first. ")
+x = input("Select a Category?: ")
+team1 = 0
+team2 = 0
+score = 0
+
+
+
+Hogwarts(team1)      
+Geography(team1)
+Random_Facts(team1)
+
+
+Hogwarts(team2)      
+Geography(team2)
+Random_Facts(team2)
 
 
 
@@ -138,18 +168,3 @@ def Random_Facts(score):
 
 
          
-    
-
-
-
-
-
-score = 0
-Hogwarts(score)      
-Geography(score)
-Random_Facts(score)
-    
-#https://screenrant.com/harry-potter-interesting-wizarding-schools-facts/
-#https://www.cambridge-news.co.uk/news/uk-world-news/40-harry-potter-quiz-questions-18163224
-#https://www.insider.com/harry-potter-little-known-facts-2019-1#to-prevent-early-leaks-of-harry-potter-and-the-deathly-hallows-the-series-publisher-bloomsbury-gave-the-seventh-and-final-book-some-quirky-codenames-17
-    

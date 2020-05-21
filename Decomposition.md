@@ -6,7 +6,7 @@ Here are some formatting examples:
 # Level 1 Header
 ## Level 2
 ### Level 3
-
+Older Deocomposition: 
 Rules for Jeapardy on Harry Potter Day:
   * I will create a Jeopardy poster with 5 catagroies for with points ranging from 100 to 500
   * There will be two teams competing against eachother
@@ -22,6 +22,11 @@ Rules for Jeapardy on Harry Potter Day:
  Test the Game: 5/20
  Code Due: 5/21
  
+ Final Decomposition:
+   Writing the Code: 5/5
+   Debugging: 5/18
+   Test the Game: 5/ 20
+
  *Italics*
  
  **Bold**

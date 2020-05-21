@@ -1,11 +1,6 @@
 # Project Description
-* Focus Day: 
 
-written by 
-
-
-edit with appropriate link:
-
-[![Run on Repl.it](https://repl.it/badge/github/athenian-ct-projects/23apiel-ff-project)](https://repl.it/github/athenian-ct-projects/23apiel-ff-project)
-
-Add info about game here
+Focus Day: Harry Potter Day
+Written by: Annabel Piel 
+Graduating Year: 2023
+Add info about game here: I have created a Jeopardy game for Harry Potter Day this will test how well you know the Harry Potter universe. There are 3 differnt categorys Hogwarts, Geography, Random Facts with in these 3 categories you have an option of earning 100, 200, 300, 400, or 500 points as the amount if points increase so does the level of difficulty. 

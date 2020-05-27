@@ -4,6 +4,8 @@
 
 
 
+
+# this function conains 5 questions about Hogwarts for group 1
 def Hogwarts(score):
   if x == "Hogwarts":
     y = int(input("How many points?: "))
@@ -48,6 +50,8 @@ def Hogwarts(score):
         score = score + 0
         print("Your score is", score, )         
   return score
+print(score)
+# this function conains 5 questions about harry potter geography for group 1
 def Geography(score):
   if x == "Geography":
     s = int(input("How many points?: "))
@@ -65,7 +69,7 @@ def Geography(score):
           score = score + 200
           print("Your score is", score, )
         else:
-          core = score + 0
+          score = score + 0
           print("Your score is", score, )  
       if s == 300:
         r = input("Where do students of Hogwarts get their supplies for the upcoming school year?: ")
@@ -93,6 +97,7 @@ def Geography(score):
           print("Your score is", score, ) 
         
     return score
+# this function conains 5 questions about Random Harry Potter Facts for group 1
 def Random_Facts(score):
   if x == "Random Facts":
     q = int(input("How many points?: "))
@@ -137,6 +142,7 @@ def Random_Facts(score):
           score = score + 0
           print("Your score is", score, )
     return score
+# this function conains 5 questions about Hogwarts for group 2
 def Hogwarts(score2):
   if x == "Hogwarts":
     y = int(input("How many points?: "))
@@ -181,6 +187,7 @@ def Hogwarts(score2):
         score2 = score2 + 0
         print("Your score is", score2, )
   return score2
+# this function conains 5 questions about harry potter geography for group 2
 def Geography(score2):
   if x == "Geography":
     s = int(input("How many points?: "))
@@ -225,9 +232,11 @@ def Geography(score2):
         score2 = score2 + 0
         print("Your score is", score2, ) 
   return score2
+# this function conains 5 questions about Random Harry Potter Facts for group 2
   def Random_Facts(score2):
     if x == "Random Facts":
       q = int(input("How many points?: "))
+      #if you pick 100 from the Random Facts category you will be asked a question if you get it right then you will get 100 points if you get it wrong then you will get no points this is the same for each number of points the only differnece is that you can get more
       if q == 100:
         w = input("What does Dumbledore mean in Old English?: ")
         if w == "Bumblebee":
@@ -271,11 +280,13 @@ def Geography(score2):
 
 
 
-
+#the first question you will be asked is which group you are in if you are group 1 you will go to the part of
+#the code with the while function if you are group 2 you will go to the part of the code with the for function
 score = 0
 score2 = 0
 u = int(input("Are you group 1 or 2?: "))
 if u == 1:  
+#the while statement means as long as team 1's score is greater or equal to zero the code underneath will run
   while score >= 0:
     x = input("Which category do you want to select?")
     if x == "Hogwarts":
@@ -285,7 +296,8 @@ if u == 1:
     if x == "Random Facts":
       Random_Facts(score)
 else:
-  for score in range(2000):
+#the for statement means that as long as the code is less than 10000 the code will run
+  for score in range(10000):
     x = input("Which category do you want to select?")
     if x == "Hogwarts":
       Hogwarts(score2)
@@ -295,7 +307,7 @@ else:
       Random_Facts(score2)
 
 #print(score1)
-#:print(score)
+#print(score)
 
 
 

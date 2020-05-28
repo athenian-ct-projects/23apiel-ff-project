@@ -5,6 +5,7 @@
 
 
 
+
 # this function conains 5 questions about Hogwarts for group 1
 def Hogwarts(score):
   if x == "Hogwarts":
@@ -50,7 +51,6 @@ def Hogwarts(score):
         score = score + 0
         print("Your score is", score, )         
   return score
-print(score)
 # this function conains 5 questions about harry potter geography for group 1
 def Geography(score):
   if x == "Geography":
@@ -296,7 +296,7 @@ if u == 1:
     if x == "Random Facts":
       Random_Facts(score)
 else:
-#the for statement means that as long as the code is less than 10000 the code will run
+#the for statement means that as long as the ocde is less than 10000 the code will run
   for score in range(10000):
     x = input("Which category do you want to select?")
     if x == "Hogwarts":

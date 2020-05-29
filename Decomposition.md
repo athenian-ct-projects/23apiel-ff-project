@@ -24,8 +24,8 @@ Rules for Jeapardy on Harry Potter Day:
  
  Final Decomposition:
    Writing the Code: 5/5
-   Debugging: 5/18
-   Test the Game: 5/ 20
+   Debugging: 5/28
+   Test the Game: 5/ 29
 
  *Italics*
  
